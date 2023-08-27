@@ -2,7 +2,7 @@ package uz.java.designpatterns.gof.behivioral.interpreter;
 
 // Terminal Expression
 class Number implements Expression {
-    private int value;
+    private final int value;
 
     public Number(int value) {
         this.value = value;

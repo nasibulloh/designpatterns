@@ -1,7 +1,7 @@
 package uz.java.designpatterns.gof.behivioral.command;
 
 class TurnOffCommand implements Command {
-    private Device device;
+    private final Device device;
 
     public TurnOffCommand(Device device) {
         this.device = device;

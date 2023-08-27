@@ -14,10 +14,8 @@ compositions of objects uniformly.
 ## Components:
 
 1. Component: This is the interface or abstract class that declares the common methods for both leaf objects and
-   composite objects.
-   It defines the interface for all concrete classes in the composition.
+   composite objects. It defines the interface for all concrete classes in the composition.
 2. Leaf: These are the classes that implement the Component interface and represent individual objects in the
-   composition.
-   They have no children and often implement the operations directly.
+   composition. They have no children and often implement the operations directly.
 3. Composite: These are the classes that implement the Component interface and can have child components.
    They define operations that are specific to composite objects and can aggregate multiple child components.

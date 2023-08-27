@@ -13,8 +13,7 @@ To attach additional responsibilities to objects dynamically, providing a flexib
 ## Components:
 
 1. Component: This is the interface or abstract class that defines the methods that the concrete components and
-   decorators
-   will implement. It represents the base object that can have decorators added to it.
+   decorators will implement. It represents the base object that can have decorators added to it.
 2. ConcreteComponent: This is the class that implements the Component interface. It defines the basic behavior of the
    object that can be decorated.
 3. Decorator: This is the abstract class that also implements the Component interface and maintains a reference to

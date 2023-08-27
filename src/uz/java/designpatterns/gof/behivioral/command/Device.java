@@ -1,7 +1,7 @@
 package uz.java.designpatterns.gof.behivioral.command;
 
 class Device {
-    private String name;
+    private final String name;
 
     public Device(String name) {
         this.name = name;

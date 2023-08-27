@@ -20,5 +20,5 @@ To ensure a class has only one instance and provide a global way to access that 
 * Lazy - create an instance when asked instance of class.
 * Threadsafe - 1) Using synchronized method, 2) Double-checked, it means 
 inside the synchronized method blocks code checking inside the synchronized block
-* Enum singleton(Eager) - It is useful because it is threadsafe , serizalizeable/deserializeable by default, n o memory issue
+* Enum singleton(Eager) - It is useful because it is threadsafe , serizalizeable/deserializeable by default, no memory issues
 
