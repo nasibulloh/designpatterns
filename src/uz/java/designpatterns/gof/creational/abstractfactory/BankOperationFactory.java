@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.creational.abstractfactory;
 
-public class BankOperationFactory {
+class BankOperationFactory {
 
     public CardService getCardService(BankOperationType type) {
         CardService service;

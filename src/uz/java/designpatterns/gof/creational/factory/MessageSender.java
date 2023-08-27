@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.creational.factory;
 
-public interface MessageSender {
+interface MessageSender {
 
     void send(String message);
 

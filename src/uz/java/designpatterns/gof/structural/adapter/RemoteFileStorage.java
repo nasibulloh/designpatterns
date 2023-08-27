@@ -2,7 +2,7 @@ package uz.java.designpatterns.gof.structural.adapter;
 
 import java.io.File;
 
-public class RemoteFileStorage {
+class RemoteFileStorage {
     public void store(File file) {
 
     }

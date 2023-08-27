@@ -2,7 +2,7 @@ package uz.java.designpatterns.gof.structural.bridge;
 
 import java.io.File;
 
-public class RemoteFileStorage implements FileStorage {
+class RemoteFileStorage implements FileStorage {
 
     private final FileSystemManager fileSystemManager;
 

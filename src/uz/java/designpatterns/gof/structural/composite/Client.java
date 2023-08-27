@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.structural.composite;
 
-public class Main {
+class Client {
     public static void main(String[] args) {
         EventPublisher publisher1 = new TttlEventPublisher();
         EventPublisher publisher2 = new TttlEventPublisher();

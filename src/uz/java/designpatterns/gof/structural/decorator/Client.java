@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.structural.decorator;
 
-public class Main {
+class Client {
     public static void main(String[] args) {
         StreamingService basicService = new BasicStreamingService();
         System.out.println("Basic Service: " + basicService.getDescription() + ", Cost: $" + basicService.getCost());

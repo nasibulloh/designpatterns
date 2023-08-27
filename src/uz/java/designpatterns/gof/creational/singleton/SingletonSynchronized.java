@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.creational.singleton;
 
-public class SingletonSynchronized {
+class SingletonSynchronized {
     private static SingletonSynchronized INSTANCE;
 
     private SingletonSynchronized() {

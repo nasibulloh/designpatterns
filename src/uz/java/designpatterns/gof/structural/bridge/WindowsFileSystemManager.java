@@ -2,7 +2,7 @@ package uz.java.designpatterns.gof.structural.bridge;
 
 import java.io.File;
 
-public class WindowsFileSystemManager implements FileSystemManager {
+class WindowsFileSystemManager implements FileSystemManager {
     @Override
     public String storeFile(File file) {
         return null;

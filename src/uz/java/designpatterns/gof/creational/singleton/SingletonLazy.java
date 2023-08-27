@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.creational.singleton;
 
-public class SingletonLazy {
+class SingletonLazy {
     private static SingletonLazy INSTANCE = null;
 
     private SingletonLazy() {

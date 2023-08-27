@@ -1,5 +1,5 @@
 package uz.java.designpatterns.gof.structural.proxy;
 
-public interface Connection {
+interface Connection {
     void connect();
 }

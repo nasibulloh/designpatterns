@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.creational.factory;
 
-public class MessageFactory {
+class MessageFactory {
     public MessageSender getService(Type type) {
         MessageSender sender;
         switch (type) {

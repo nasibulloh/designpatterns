@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.structural.decorator;
 
-public abstract class StreamingServiceDecorator implements StreamingService {
+abstract class StreamingServiceDecorator implements StreamingService {
     protected StreamingService decoratedService;
 
     public StreamingServiceDecorator(StreamingService decoratedService) {

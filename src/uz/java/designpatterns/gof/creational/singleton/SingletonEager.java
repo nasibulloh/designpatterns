@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.creational.singleton;
 
-public class SingletonEager {
+class SingletonEager {
     private final static SingletonEager INSTANCE = new SingletonEager();
 
     private SingletonEager() {

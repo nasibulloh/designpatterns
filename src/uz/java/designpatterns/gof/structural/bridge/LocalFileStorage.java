@@ -2,7 +2,7 @@ package uz.java.designpatterns.gof.structural.bridge;
 
 import java.io.File;
 
-public class LocalFileStorage implements FileStorage {
+class LocalFileStorage implements FileStorage {
     private final FileSystemManager fileSystemManager;
 
     public LocalFileStorage(FileSystemManager fileSystemManager) {

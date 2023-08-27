@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.structural.composite;
 
-public class TttlEventPublisher implements EventPublisher {
+class TttlEventPublisher implements EventPublisher {
 
     @Override
     public void publish() {

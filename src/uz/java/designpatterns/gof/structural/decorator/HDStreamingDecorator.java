@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.structural.decorator;
 
-public class HDStreamingDecorator extends StreamingServiceDecorator {
+class HDStreamingDecorator extends StreamingServiceDecorator {
     public HDStreamingDecorator(StreamingService decoratedService) {
         super(decoratedService);
     }

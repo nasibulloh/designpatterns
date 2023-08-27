@@ -2,7 +2,7 @@ package uz.java.designpatterns.gof.structural.adapter;
 
 import java.io.File;
 
-public class FileStorageAdapter extends RemoteFileStorage {
+class FileStorageAdapter extends RemoteFileStorage {
 
     private final LocalFileStorage localFileStorage;
 

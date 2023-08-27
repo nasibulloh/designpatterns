@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.creational.singleton;
 
-public class SingletonDoubleChecked {
+class SingletonDoubleChecked {
 
     private static SingletonDoubleChecked INSTANCE;
 

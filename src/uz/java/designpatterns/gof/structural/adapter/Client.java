@@ -3,7 +3,7 @@ package uz.java.designpatterns.gof.structural.adapter;
 import java.io.File;
 import java.io.IOException;
 
-public class Main {
+class Client {
     public static void main(String[] args) throws IOException {
         RemoteFileStorage remoteFileStorage = new RemoteFileStorage();
         File file = File.createTempFile("", "");

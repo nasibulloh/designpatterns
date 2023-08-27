@@ -1,6 +1,7 @@
 package uz.java.designpatterns.gof.structural.decorator;
 
-public interface StreamingService {
+interface StreamingService {
     String getDescription();
+
     double getCost();
 }

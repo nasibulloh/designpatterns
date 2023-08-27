@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.creational.builder;
 
-public class PetShop {
+class PetShop {
     private int id;
     private String name;
 
@@ -12,9 +12,10 @@ public class PetShop {
         return name;
     }
 
-    public static PersonBuilder builder(){
+    public static PersonBuilder builder() {
         return new PersonBuilder();
     }
+
     public static class PersonBuilder {
         private PetShop petShop = new PetShop();
 

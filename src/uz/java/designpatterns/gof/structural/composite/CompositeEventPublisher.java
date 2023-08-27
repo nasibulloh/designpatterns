@@ -3,9 +3,9 @@ package uz.java.designpatterns.gof.structural.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CompositeEventPublisher implements EventPublisher {
+class CompositeEventPublisher implements EventPublisher {
 
-    private List<EventPublisher> publishers = new ArrayList<>();
+    private final List<EventPublisher> publishers = new ArrayList<>();
 
     public void add(EventPublisher publisher) {
         publishers.add(publisher);

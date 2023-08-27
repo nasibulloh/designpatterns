@@ -1,6 +1,6 @@
 package uz.java.designpatterns.gof.structural.proxy;
 
-public class ProxyConnection implements Connection {
+class ProxyConnection implements Connection {
     private DatabaseConnection databaseConnection;
     private final boolean available;
 

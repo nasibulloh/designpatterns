@@ -1,5 +1,5 @@
 package uz.java.designpatterns.gof.structural.composite;
 
-public interface EventPublisher {
+interface EventPublisher {
     void publish();
 }
